@@ -16,12 +16,10 @@
         }
         .header{
             border: 2px solid #000;
-            background: #484141;;
-            height: 15vh;
+            background: #40753b;
+            height: 10vh;
         }
-        .navbar{
-            
-        }
+    
         .u-list{
             display: flex;
             justify-content: center;
@@ -37,7 +35,7 @@
         a{
             border-radius: 8px;
             text-decoration: none;
-            color: white;
+            color: rgb(189, 160, 160);
             font-weight: bold;
             padding: 1px;
             font-family: 'Oxygen', sans-serif;
@@ -47,6 +45,20 @@
             background: white;
 
         }
+        .inputText{
+            height: 25px;
+            margin-top: 17px;
+            border-radius: 7px;
+            border: 2px solid gray;
+        }
+        .btn{
+            height: 28px;
+            margin-top: 17px;
+            margin-left: 3px;
+            padding: 4px;
+            color: green;
+        }
+
       
     </style>
 </head>
@@ -58,7 +70,9 @@
                 <li class="l-items"><a href="#home">Home</a></li>
                 <li class="l-items"><a href="#home">About</a></li>
                 <li class="l-items"><a href="#home">Contact</a></li>
-                <li class="l-items"><a href="#home">Services</a></li>
+                <li class="l-items"><a href="#home">Me</a></li>
+                <input type="text" class="inputText" placeholder="Search">
+                <button class="btn">Search</button>
             </ul>
         </nav>
     </header>
